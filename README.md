@@ -1,8 +1,12 @@
-# React + Vite
+# A browser appointment system built in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a project of a appointment system built with React and Vite, from an exercise proposed in an online course.
 
-Currently, two official plugins are available:
+It has the following functionalities:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add a pet name, owner name, owner email, date and symtoms list. After the form is submit the information of the patient will be shown on the right side of the screen as a card.
+- Edit the patient information.
+- Delete the patient information.
+- Keep data on LocalStorage to avoid losing them on browser refresh.
+
+You can check the project here: https://react-appointment-manager.netlify.app/
